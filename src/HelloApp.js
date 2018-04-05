@@ -1,6 +1,10 @@
 import React from 'react'
 import './App.css'
 
+function Hello(props) {
+    return <h1>Hello {props.name}</h1>
+  }
+  
 class HelloApp extends React.Component{
     constructor(props){
         super(props)
@@ -29,6 +33,7 @@ class HelloApp extends React.Component{
                 <input type="submit" value="Submit"/>
             </form>
             <p>Text: {this.state.value}</p>
+            <Hello name = "Ham"/>
             </div>
         )
     }
