@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
 
+//stateless function
 function Hello(props) {
     return <h1>Hello {props.name}</h1>
   }
-  
+
 class HelloApp extends React.Component{
     constructor(props){
         super(props)
