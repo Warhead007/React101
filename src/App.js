@@ -9,10 +9,12 @@ class App extends Component {
     return (
       <div className="App">
         <HelloApp/>
+        
         <HelloStateless
         firstName = "Rawit"
         lastName = "Supatanakorn"
         /> 
+        
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
